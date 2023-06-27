@@ -18,3 +18,12 @@ std::ostream& operator<<(std::ostream& dataout, const Sales_data& data)
         << data.units_solds << std::endl;
     return dataout;
 }
+
+// 在类外定义一个返回this的函数
+Sales_data& Sales_data::combine(const Sales_data& rhs)
+{
+    // 合并两个出售的数据
+    units_solds += rhs.units_solds;
+    revenue += rhs.revenue;
+    return *this;
+}

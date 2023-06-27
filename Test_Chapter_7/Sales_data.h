@@ -37,3 +37,7 @@ struct absInt {
 
 #endif
 
+// 引入const成员函数
+// const关键字的作用其实是修改隐式this指针的类型 未修饰的this指针可以理解为 Sales_data* const 加入const关键字后变为 Sales_data const * const
+// 这其实就是加入了顶层const属性  常量对象无法调用普通成员函数 所以常量对象以及常量对象的引用或者指针都只能调用常量成员函数
+

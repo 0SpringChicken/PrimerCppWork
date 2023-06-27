@@ -6,7 +6,7 @@
 #include <vector>
 
 
-extern struct absInt;
+struct absInt;
 
 
 int main()

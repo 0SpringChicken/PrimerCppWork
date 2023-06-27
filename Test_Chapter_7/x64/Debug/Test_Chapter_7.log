@@ -1,5 +1,5 @@
 ﻿  Sales_data.cpp
   Test_Chapter_7.cpp
-F:\C++ Primer\Chapter7\Test_Chapter_7\Test_Chapter_7.cpp(9,21): warning C4091: 'extern ': ignored on left of 'absInt' when no variable is declared
+E:\PrimerC++\Test_Chapter_7\Test_Chapter_7.cpp(1,1): warning C4828: The file contains a character starting at offset 0x98b that is illegal in the current source character set (codepage 936).
   Generating Code...
-  Test_Chapter_7.vcxproj -> F:\C++ Primer\Chapter7\Test_Chapter_7\x64\Debug\Test_Chapter_7.exe
+  Test_Chapter_7.vcxproj -> E:\PrimerC++\Test_Chapter_7\x64\Debug\Test_Chapter_7.exe
