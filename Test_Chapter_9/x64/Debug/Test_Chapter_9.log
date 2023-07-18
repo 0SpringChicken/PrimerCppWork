@@ -1,0 +1,16 @@
+﻿  Date_Deal.cpp
+E:\PrimerC++\Test_Chapter_9\Date_Deal.cpp(1,1): warning C4828: The file contains a character starting at offset 0xcfd that is illegal in the current source character set (codepage 936).
+E:\PrimerC++\Test_Chapter_9\Date_Deal.cpp(16,24): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\PrimerC++\Test_Chapter_9\Date_Deal.cpp(41,32): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\PrimerC++\Test_Chapter_9\Date_Deal.cpp(56,23): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\PrimerC++\Test_Chapter_9\Date_Deal.cpp(72,32): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\PrimerC++\Test_Chapter_9\Date_Deal.cpp(87,23): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Test_Chapter_9.cpp
+E:\PrimerC++\Test_Chapter_9\Test_Chapter_9.cpp(389,26): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\PrimerC++\Test_Chapter_9\Test_Chapter_9.cpp(177,25): warning C4101: 'arr': unreferenced local variable
+  Generating Code...
+  Test_Chapter_9.vcxproj -> E:\PrimerC++\Test_Chapter_9\x64\Debug\Test_Chapter_9.exe

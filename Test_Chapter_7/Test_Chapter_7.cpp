@@ -1,21 +1,26 @@
 // Test_Chapter_7.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-#include "Sales_data.h"
 #include <iostream>
 #include <string>
 #include <vector>
+#include <iomanip>
+#include "Sales_data.h"
+#include "Screen.h"
 
-
-struct absInt;
+#define REC(A,B) (A)*(B)
+#define RECS(A,B) ((A)*(B))
 
 
 int main()
 {
-    int i = -10;
-    absInt abs;
-    i = abs(i);
-    int c = abs.operator()(-100);
-    std::cout << i << '\t' << c << '\t';
+    Screen myScreen(5, 5, 'X');
+    myScreen.move(4, 0).Set('#').display(std::cout);
+    std::cout << "\n";
+    myScreen.display(std::cout);
+    std::cout << "\n";
+
+    Windows_mgr win_self;
+    win_self.clear();
 }
 
 // 重载运算符  选择成员与非成员的标准
@@ -65,3 +70,14 @@ int main()
 // 但是在上面的定义中abs也只是一个对象而非一个函数
 // 一个类可以定义多个不同版本的调用运算符，衙门支架应该再参数数量或者类型上有所区别
 // 如果一个类定义了调用运算符  那么该类的对象称作函数对象
+
+    //float ftv = 111111.3333333333;
+    //std::cout << std::setprecision(12) << ftv << std::endl;
+    //double dtv = 111111.3333333333;
+    //std::cout << std::setprecision(12) << dtv << std::endl;
+    //int a = 1, b = 2, c = 3, d = 4;
+    //int e = ~REC(a + b, c + d);
+    //std::cout << "e value:" << e << std::endl;
+    //int f = ~RECS(a + b, c + d);
+    //std::cout << "f value:" << f << std::endl;
+
